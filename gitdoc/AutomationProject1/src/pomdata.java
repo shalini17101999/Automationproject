@@ -27,10 +27,10 @@ public void home() throws InterruptedException {
 @DataProvider
 public Object[][] getData(){
     Object[][] data=new Object[3][2];
-    data[0][0]="Annapurna";
-    data[0][1]="Anu@123";
-    data[1][0]="Durga";
-    data[1][1]="Durga@123";
+    data[0][0]="shalini";
+    data[0][1]="shalu@123";
+    data[1][0]="shal";
+    data[1][1]="durg@123";
     data[2][0]="Vinni";
     data[2][1]="vini@123";
     return data;
@@ -38,21 +38,21 @@ public Object[][] getData(){
 @DataProvider
 public Object[][] regi_Data(){
     Object[][] rg=new Object[2][8];
-    rg[0][0]="Annapurna";
+    rg[0][0]="shalu";
     rg[0][1]="S";
-    rg[0][2]="annapurna@gmail.com";
-    rg[0][3]="Anu@123";
+    rg[0][2]="shalini17101999@gmail.com";
+    rg[0][3]="shalu@123";
     rg[0][4]="09/07/2000";
     rg[0][5]="female";
     rg[0][6]="9576372365";
-    rg[0][7]="Hello I am Annapurna";
-    rg[1][0]="Chandu";
+    rg[0][7]="Hello I am shalini";
+    rg[1][0]="diya";
     rg[1][1]="S";
     rg[1][2]="chandu@gmail.com";
     rg[1][3]="chandu@123";
     rg[1][4]="16/10/2000";
     rg[1][5]="male";
     rg[1][6]="9895372365";
-    rg[1][7]="Hello I am chandu";
+    rg[1][7]="Hello I am diya";
     return rg;
     
